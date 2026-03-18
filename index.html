@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="description" content="Kettlebell edzés otthon">
+    <meta name="keywords" content="kettlebell, gym, edzés">
+
+    <title>Kettlebell</title>
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="premade.min.css">
+    <link rel="stylesheet" href="kettlebell.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-black navbar-custom">
+
+    <a class="navbar-brand" href="#">Kettlebell</a>
+
+    <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item">
+            <a class="nav-link" href="#ismerteto">Mi is ez?</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#vasarlas">Vásárlás</a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="#generator">Gyakorlatot kérek!</a>
+        </li>
+
+    </ul>
+
+</nav>
+
+
+<!-- ISMERTETO -->
+
+<section id="ismerteto" class="container mt-5">
+
+    <h2 class="text-center">Mi is ez?</h2>
+
+    <p>
+        A kettlebell egy hagyományos orosz súlyzó.
+    </p>
+
+</section>
+
+
+<!-- KEDVCSINALO -->
+
+<section id="kedvcsinalo" class="container text-center mt-5">
+
+    <div class="row">
+
+        <div class="col-md-4">
+            <img src="assets/kepek/kep1.jpg" class="img-fluid rounded-circle">
+        </div>
+
+        <div class="col-md-4">
+            <img src="assets/kepek/kep2.jpg" class="img-fluid rounded-circle">
+        </div>
+
+        <div class="col-md-4">
+            <img src="assets/kepek/kep3.jpg" class="img-fluid rounded-circle">
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ARAINK -->
+
+<section id="vasarlas" class="container mt-5">
+
+<h2 class="text-center">Mennyibe kerül belevágni?</h2>
+
+<div class="row text-center">
+
+
+<!-- KETTLEBELL -->
+
+<div class="col-md-4">
+
+<div class="card text-center">
+
+<div class="card-header">
+Kettlebell
+</div>
+
+<div class="card-body">
+
+<h5 class="card-price">0 Ft</h5>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- EDZOTERV -->
+
+<div class="col-md-4">
+
+<div class="card text-center">
+
+<div class="card-header">
+Edzésterv
+</div>
+
+<div class="card-body">
+
+<h5 class="card-price">0 Ft</h5>
+
+<ul>
+<li id="kedvezmeny"></li>
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+
+<!-- TANKONYV -->
+
+<div class="col-md-4">
+
+<div class="card text-center">
+
+<div class="card-header">
+Tankönyv
+</div>
+
+<div class="card-body">
+
+<h5 class="card-price">4 999 Ft</h5>
+
+<ul>
+
+<li>A mester leghíresebb könyve</li>
+<li>Kezdőknek íródott</li>
+<li>Teljes edzéstervet tartalmaz</li>
+<li>Segít az alapokban</li>
+<li>Más sport mellé is jó</li>
+
+</ul>
+
+<button class="btn btn-primary">
+Megrendelem
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+
+<!-- GENERATOR -->
+
+<section id="generator" class="container mt-5 text-center">
+
+<h2>Gyakorlat generátor</h2>
+
+<button onclick="gyakorlatGeneralas()" class="btn btn-success">
+Gyakorlatot kérek
+</button>
+
+<p id="generaltGyakorlat"></p>
+
+</section>
+
+
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="kettlebell.js"></script>
+
+</body>
+
+</html>

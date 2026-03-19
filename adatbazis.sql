@@ -74,7 +74,7 @@ INSERT INTO `felszereles` (`id`, `nev`, `suly`, `kategoriaId`)
 VALUES (1, 'Sima rózsaszín 1', 8, 1),
        (2, 'Sima rózsaszín 2', 8, 1),
        (3, 'Sima rózsaszín 3', 8, 1),
-       (4, 'Sima kék 1', 12, 1),
+       (4, 'Sima kék 1', 12, 1),    
        (5, 'Sima kék 2', 12, 1),
        (6, 'Sima kék 3', 12, 1),
        (7, 'Sima sárga 1', 14, 1),

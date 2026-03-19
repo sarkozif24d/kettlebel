@@ -1,4 +1,4 @@
-/* Alapértelmezett betűtípus és méret */
+
 body {
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -16,5 +16,5 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .navbar-custom {
-    padding-top: 10px !important; /* Példa, az eredeti -30px */
+    padding-top: 10px !important; 
 }
